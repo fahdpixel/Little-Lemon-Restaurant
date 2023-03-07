@@ -2,7 +2,6 @@ import React from "react";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { hydrate, render } from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
 // const RootApp = () => {
 //   return (
