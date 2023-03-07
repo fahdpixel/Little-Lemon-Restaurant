@@ -4,18 +4,18 @@ import reportWebVitals from "./reportWebVitals";
 import { hydrate, render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
-const RootApp = () => {
-  return (
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  );
-};
+// const RootApp = () => {
+//   return (
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   );
+// };
 const rootElement = document.getElementById("root");
 if (rootElement.hasChildNodes()) {
-  hydrate(<RootApp />, rootElement);
+  hydrate(<App />, rootElement);
 } else {
-  render(<RootApp />, rootElement);
+  render(<App />, rootElement);
 }
 
 // If you want to start measuring performance in your app, pass a function
